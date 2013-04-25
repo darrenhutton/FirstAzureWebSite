@@ -1,0 +1,24 @@
+/* CSS Document */
+/****************************************
+| Authors:	David Potter, Nick Cobb 
+| Copyright 2010 Lightmaker.com
+****************************************/
+body{height:100%;}
+
+/** layout **/
+.content{height:400px;}
+
+/** required for links and form elements in png filtered divs **/
+a,input,textarea,select,iframe{position:relative;}
+
+/** content **/
+
+body{background:url("../../images/layout/bg_header.gif") left -19px repeat-x #ffffff;}
+#outline{background:url("../../images/layout/bg_swoosh.jpg") center 214px no-repeat;}
+
+
+.content_repeat{width:990px;position:static;background:url("../../images/layout/bg_content_repeat.jpg") left top repeat-y;z-index:0;}
+.content_top{background:url("../../images/layout/bg_content_top.jpg") left top no-repeat;}
+.swoosh{display:none;}
+
+.promo{height:250px;}

@@ -1,0 +1,64 @@
+﻿/* CSS Document */
+/****************************************|
+| Authors:	David Potter, Nick Cobb 
+| Copyright 2010 Lightmaker.co.uk
+ /*nested font size calculation: child pt / parent pt = child ems */
+ /* ie6 */ /* atribute also set in ie6.css
+****************************************/
+
+/*h1 {font-size:1.6em; padding:0px;margin:0px; color:#0099FF;}*/
+h1{font-size:1.3em;color:#0072c5;font-weight:bold;padding:0;margin:0 0 5px 0;}
+h2{font-size:1.1em;color:#0072c5;font-weight:bold;padding:0;margin:0 0 5px 0;}
+h3{font-size:1.1em;color:#0072c5;font-weight:normal;padding:0;margin:0 0 5px 0;}
+h1 a, h2 a, h3 a{text-decoration:none;}
+h1 a:hover, h2 a:hover, h3 a:hover{text-decoration:underline;}
+
+/** buttons **/
+input::-moz-focus-inner{border:0;padding:0;}
+
+/* Generic Page Styles */
+hr{border:none;color:#90c5e5;background-color:#90c5e5;height:2px;}
+
+/* Right Column */
+ul.bobble{list-style:none;list-style-image:url("../../images/layout/bobble.gif");margin:20px 0 35px 0;padding:0 0 0 20px;}
+ul.bobble li{padding:0 0 12px 0;margin:0;}
+ul.bobble li ul{margin:0;padding:0 0 0 20px;}
+ul.bobble li ul li{padding:0;margin:8px 0 0 0;}
+
+/* Main content */
+ul.bullets_content li{padding:0 0 5px 5px;margin:0;}
+.imgCenter {text-align: center;}
+
+/* Promos */
+.promo_img{min-height:85px;width:170px;background:url("../../images/layout/bg_image.png") left top no-repeat;}
+.promo_content{line-height:1.5em;}
+.promo h2{margin-bottom:10px;}
+
+/* Reports */
+.reports_column {padding:0;margin:2px 0 0 10px;} 
+.reports_column li{list-style:none;}
+
+/* Forms */
+.newsletter_form form input{width:192px;height:15px;margin:0;border:solid 1px #cfcfcf;padding:7px 0 10px 0;text-align:center;}
+p.small{font-size:0.9em;}
+
+/* Nested Lists */
+ul ul, ul ul ul{list-style:disc;}
+ul ul li, ul ul ul li{margin-top:5px;}
+
+/** Footer **/
+.footer ul{list-style:none;padding:0;margin:0;text-align:center;}
+.footer li{margin:0 15px 0 0;padding:0;display:inline;}
+.footer a{color:#000000;text-decoration:none;}
+.footer a:hover{text-decoration:underline;}
+
+.tbl_content{border-collapse:collapse; width:100%;}
+.tbl_content2{border-collapse:collapse; border: 2px solid #e4e4e4; width:100%;}
+.tbl_content_cell{border: 2px solid #FFFFFF;}
+.tbl_content_row1{font-family:Verdana,Arial,Helvetica; font-size:10px; font-weight:bold; color:#FFFFFF; background-color:#0066cc;}
+.tbl_content_row2{background-color:#e4e4e4;}
+.tbl_content_row3{background-color:#e4e4e4; font-weight:bold;}
+.tbl_content_row4{background-color:#79c5fc;}
+.tbl_content_row5{background-color:#fff;}
+
+
