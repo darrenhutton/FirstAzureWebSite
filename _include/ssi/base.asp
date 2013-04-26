@@ -44,6 +44,7 @@ end function
 <title><%=meta_title%></title>
 <meta name="description" content="<%=meta_description%>" />
 <meta name="author" content="Michael Ambler" />
+<meta name="robots" content="noindex, nofollow" />
 <script type="text/javascript">
 	var dotdotpath = '<%=dotdotpath%>';
 </script>
